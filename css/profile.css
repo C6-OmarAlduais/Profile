@@ -1,0 +1,142 @@
+:root{
+    --back: #FABE00;
+    height: 100%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+
+}
+
+.navbar-expand-lg{
+    background-color: var(--back);
+}
+.profile-image{
+    width:30%;
+    height: 40%;
+    border-radius: 360px;
+    border-top: groove;
+   
+}
+.nav-link active{
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 25px;
+    text-shadow: 0 4px 5px rgba(0,0,0,0.5) ;
+}
+.main{
+    padding-top: 15%;
+    text-align: -webkit-center;
+    background-image: url(../white-abstract-background-design_23-2148825582.png);
+    height: 500px;
+    height: 100%;
+}
+.name-description{
+    width: fit-content;
+    text-align-last: start;
+}
+.name{
+    color: #0A1154;
+    font-weight: bolder;
+    
+}
+/* 
+* {
+    margin: 0;   
+    padding: 0; */
+  /* }
+html{
+height: 100%;
+width: 100%;
+}
+body{
+    height: 100%;
+width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left-right{
+    display: grid;
+background-color:var(--back);
+height: 100%;
+width: 100%;
+
+align-items: flex-end;
+    justify-items: end;
+}
+.left-right-bottom{
+    display: grid;
+background-color: var(--back);
+height: 100%;
+width: 100%;
+
+align-items: flex-start;
+    justify-items: start;
+}
+
+.right-left{
+    display: grid;
+    height: 100%;
+width: 100%;
+
+    align-items: flex-end;
+    justify-items: start;
+}
+
+.right-left-bottom{
+    display: grid;
+    height: 100%;
+width: 100%;
+
+    align-items: flex-start;
+    justify-items: end;
+}
+
+.img-left-bottom{
+    width: 20%;
+    height: 30%;
+    /* margin: 1px; */
+}
+.img-right-top{
+    width: 20%;
+    height: 30%;
+    /* margin: 1px; */
+
+}
+
+@media (max-width: 535px) {
+    .img-left-bottom{
+        height: 10%;
+    }
+    .img-right-top{
+        height: 10%;
+    }
+  }
+  @media (min-width: 535px) and (max-width: 767px) {
+    .img-left-bottom{
+        height: 15%;
+    }
+    .img-right-top{
+        height: 15%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .img-left-bottom{
+        height: 20%;
+    }
+    .img-right-top{
+        height: 20%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .img-left-bottom{
+        height: 30%;
+    }
+    .img-right-top{
+        height: 30%;
+    }
+  }
+   */
