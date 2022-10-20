@@ -82,6 +82,20 @@ body {
     height: 500px;
     height: 100%;
 }
+.main4{
+    padding-top: 5%;
+    text-align: -webkit-center;
+    background-image: url(../white-abstract-background-design_23-2148825582.png);
+    height: 500px;
+    height: 100%;
+}
+.svg-inline--fa{
+    font-size: 2rem;
+}
+.contact-links{
+    font-size: 2rem;
+margin-bottom: 6px;
+}
 
 /* .carousel-inner{
     width: 70%;
