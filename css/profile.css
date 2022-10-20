@@ -1,6 +1,8 @@
 :root{
     --back: #FABE00;
     height: 100%;
+ 
+    height: 61%;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -12,8 +14,8 @@ body {
     background-color: var(--back);
 }
 .profile-image{
-    width:30%;
-    height: 40%;
+    width:20%;
+    height: 30%;
     border-radius: 360px;
     border-top: groove;
    
@@ -27,7 +29,7 @@ body {
     text-shadow: 0 4px 5px rgba(0,0,0,0.5) ;
 }
 .main{
-    padding-top: 15%;
+    padding-top: 5%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
     height: 500px;
@@ -36,11 +38,32 @@ body {
 .name-description{
     width: fit-content;
     text-align-last: start;
+    margin-left: 35%;
+    margin-right: 22%;
+    text-align: justify;
 }
 .name{
     color: #0A1154;
     font-weight: bolder;
     
+}
+.footer{
+    background-color: var(--back);
+    height: 10%;
+    text-align-last: center;
+}
+.moto{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 4px 5px rgba(0,0,0,0.5) ;
+    padding-top: 1%;
+}
+.main1{
+    padding-top: 5%;
+    text-align: -webkit-center;
+    background-image: url(../white-abstract-background-design_23-2148825582.png);
+    height: 500px;
+    height: 100%;
 }
 /* 
 * {
