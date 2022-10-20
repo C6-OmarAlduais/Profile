@@ -1,8 +1,8 @@
 :root{
     --back: #FABE00;
+    
     height: 100%;
- 
-    height: 75%;
+    height: 62%;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -47,7 +47,11 @@ body {
     font-weight: bolder;
     
 }
+.description{
+   font-size: 1.7rem;;
+}
 .footer{
+    /* min-height: calc(10vh - 40px); */
     background-color: var(--back);
     height: 10%;
     text-align-last: center;
@@ -65,7 +69,7 @@ body {
     height: 500px;
     height: 100%;
 }
-.main2{
+/* .main2{
     padding-top: 5%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
@@ -74,7 +78,7 @@ body {
 }
 .services-list{
     
-}
+} */
 .main3{
     padding-top: 5%;
     text-align: -webkit-center;
@@ -102,8 +106,11 @@ margin-bottom: 6px;
     height: 70%;
 } */
 .d-block{
-    width: 50%;
+    width: 25%;
     
+}
+.d-block:hover{
+    width: 30%;
 }
 /* 
 * {
