@@ -2,7 +2,7 @@
     --back: #FABE00;
     height: 100%;
  
-    height: 65%;
+    height: 75%;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -71,6 +71,25 @@ body {
     background-image: url(../white-abstract-background-design_23-2148825582.png);
     height: 500px;
     height: 100%;
+}
+.services-list{
+    
+}
+.main3{
+    padding-top: 5%;
+    text-align: -webkit-center;
+    background-image: url(../white-abstract-background-design_23-2148825582.png);
+    height: 500px;
+    height: 100%;
+}
+
+/* .carousel-inner{
+    width: 70%;
+    height: 70%;
+} */
+.d-block{
+    width: 50%;
+    
 }
 /* 
 * {
