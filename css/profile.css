@@ -2,7 +2,7 @@
     --back: #FABE00;
     
     height: 100%;
-    height: 62%;
+    height: 80%;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -47,8 +47,9 @@ body {
     font-weight: bolder;
     
 }
-.description{
-   font-size: 1.7rem;;
+
+.discription{
+   font-size: 1.1rem;;
 }
 .footer{
     /* min-height: calc(10vh - 40px); */
