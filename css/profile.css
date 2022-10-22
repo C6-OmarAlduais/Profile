@@ -67,8 +67,8 @@ color: var(--rand)
    overflow: hidden;
     width: 20em;
     transition: transform .5s ease-in-out;
-    transform:scale(1.5);
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
 
 } 
 .intro{
