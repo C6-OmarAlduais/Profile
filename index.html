@@ -38,13 +38,20 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-            </ul>
-            <form class="d-flex" role="search">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <form class="d-flex" role="search"> 
+            <div class="flx">
+                <a id="dark">
+                    <i class="fa-solid fa-sun" ></i><span class="discription">Dark</span></a></div>
+                    <div class="flx">
+                    <a id="light">
+                    <i class="fa-solid fa-moon" ></i><span class="discription">Light</span></a>
+                </div>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" id="home" aria-current="page" href="#"
@@ -64,15 +71,6 @@
                 href="#"
                 ><i class="fa-solid fa-diagram-project"></i
               > Project</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                id="contact"
-                aria-current="page"
-                href="#"
-                ><i class="fa-solid fa-address-book"></i
-              > Contact</a>
             </li>
           </ul>
         </form>
@@ -133,7 +131,12 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
+ <!-- <div>
+            <a id="dark">
+                <i class="fa-solid fa-sun" ></i><p class="discription">Dark</p></a>
+                <a id="light">
+                <i class="fa-solid fa-moon" ></i><p class="discription">Light</p></a>
+                </div> -->
     </div>
     
 
@@ -223,14 +226,6 @@
           <img src="./Books.png" class="books-image" alt="...">
               </div>
             </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> -->
           </div>
 
 
@@ -240,104 +235,191 @@
 
 
 
-<!--       
-        <h3 class="name">as a Full-Stack Developer</h3>
-        <p class="discription">
-          Qualified and professional Full-Stack Developer. Enjoy Investing Time
-          in creative Work. Creating attractive, responsive Applications is my
-          Passion. Using Technologies:
-        </p>
-        <h3 class="name">
-          <i class="fa-brands fa-square-js"></i>
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3-alt"></i>
-          <i class="fa-brands fa-bootstrap"></i>
-          <i class="fa-brands fa-node-js"></i>
-          <i class="fa-brands fa-npm"></i>
-          <i class="fa-brands fa-react"></i>
-          <i class="fa-brands fa-git-alt"></i>
-          <i class="fa-brands fa-github"></i>
-        </h3>
 
-        <h3 class="name">as a German Teacher</h3>
-        <p class="discription">
-          I studied Germanistics and German as a Foreign Language, and I work in
-          this Field since 2014.
-        </p>
-        <h3 class="name">as a Translator</h3>
-        <p class="discription">
-          I enjoy Spending my Spare Time Reading and Translating historical
-          Books.
-        </p> -->
       </div>
     </div>
     <div class="main3">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h5 class="name">Diagram</h5>
+                <img src="./Project/Project 4 Diagram.png" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <p class="discription1">Diagram for the Schemas of the Application </p>
+              </div>
+              <div class="carousel-item">
+                  <h5 class="name">Home</h5>
+                  <img src="./Project/Home.png" class="d-block" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                </div>
+                <p class="discription1">This Page Shows all the Items and their Details.</p>
+            </div>
+            <div class="carousel-item">
+                <h5 class="name">Pages</h5>
+              <img src="./Project/Pagning.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">Here, the Visetor can move between the Pages.</p>
+            </div>
+              <div class="carousel-item">
+                  <h5 class="name">Rigester</h5>
+                <img src="./Project/Register.png" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+                <p class="discription1">If the Vistor want to buy any Item, he should rigester first.</p>
+              </div>
+
+              <div class="carousel-item">
+                <h5 class="name">Login</h5>
+              <img src="./Project/Login.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">If the User are already rigstered on the Application, he can login immediatly.</p>
+            </div>
+
+            <div class="carousel-item">
+                <h5 class="name">Add to Cart</h5>
+              <img src="./Project/Cart_1.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">Now, the User can choose, which Items he want to add to Cart.</p>
+            </div>
+
+
+            <div class="carousel-item">
+                <h5 class="name">Buy</h5>
+              <img src="./Project/Cart_2.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">Here, the User can Buy the Items or delete them form The Cart.</p>
+            </div>
+
+            <div class="carousel-item">
+                <h5 class="name">Admin</h5>
+              <img src="./Project/Admin.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">The Admin can delete, edit Items.</p>
+            </div>
+
+
+            <div class="carousel-item">
+                <h5 class="name">Update</h5>
+              <img src="./Project/Update.png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">The Admin can edit to the existing Items form here.</p>
+            </div>
+
+            <div class="carousel-item">
+                <h5 class="name">Edit new Item</h5>
+              <img src="./Project/Add New Item .png" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+              <p class="discription1">And form here can he edit new Pages.</p>
+            </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+      <!-- <div
+        id="carousel3ExampleControls"
+        class="carousel3 slide"
+        data-bs-ride="carousel3"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h3 class="name">Diagram</h3>
+        <div class="carousel3-inner">
+          <div class="carousel3-item2 active">
+            <h6 class="name">Diagram</h6>
             <img
               src="./Project/Project 4 Diagram.png"
               class="d-block"
               alt="Diagram"
             />
+            <p class="discription">In the planning phase, a diagram was created to show how the schemas for the application are structured and how they are connected to each other.</p>
           </div>
-          <div class="carousel-item">
-            <h3 class="name">Home</h3>
+          <div class="carousel3-item">
+            <h6 class="name">Home</h6>
             <img src="./Project/Home.png" class="d-block" alt="Home" />
+            <p class="discription"></p>
           </div>
-          <div class="carousel-item">
-            <h3 class="name">responsive Design</h3>
+          <div class="carousel3-item">
+            <h6 class="name">responsive Design</h6>
             <img
               src="./Project/E-Markt 2.png"
               class="d-block"
               alt="responsive Design"
             />
+            <p class="discription"></p>
+
           </div>
-          <div class="carousel-item">
-            <h3 class="name">Register</h3>
+          <div class="carousel3-item">
+            <h6 class="name">Register</h6>
             <img src="./Project/Register.png" class="d-block" alt="Register" />
+            <p class="discription"></p>
+
           </div>
-          <div class="carousel-item">
-            <h3 class="name">Login</h3>
+          <div class="carousel3-item">
+            <h6 class="name">Login</h6>
             <img src="./Project/Login.png" class="d-block" alt="Login" />
           </div>
-          <div class="carousel-item">
-            <h3 class="name">Cart</h3>
+          <div class="carousel3-item">
+            <h6 class="name">Cart</h6>
             <img src="./Project/Cart.png" class="d-block" alt="Cart" />
+            <p class="discription"></p>
+
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          class="carousel3-control-prev"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carousel3ExampleControls"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel3-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          class="carousel3-control-next"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carousel3ExampleControls"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel3-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
     </div>
-    <div class="main4">
+   <!-- <div class="main4">
       <div class="name-description">
         <h1 class="name">Omar Alduais</h1>
         <br />
-        <!-- <p class="description"> <i class="fa-solid fa-mobile-screen"></i> 
-           +962 786 909 489
-          </p> -->
+     
         <a class="contact-links" href="tel:00962 786 909 489"
           ><i class="fa-solid fa-mobile-screen"></i> +962 786 909 489</a
         >
@@ -355,7 +437,7 @@
           ><i class="fa-brands fa-github"></i> OmarAlduais</a
         >
       </div>
-    </div>
+    </div> -->
     <footer class="footer">
 
         <a class="contact-links" href="tel:00962 786 909 489"

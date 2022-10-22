@@ -3,8 +3,25 @@
     font-family: "Shadow";
     src: url(../Shadow.ttf) format('truetype');
 }
+body{
+    --back: black;
+    --back1: #0a1a26;
+    --back2: rgb(7, 42, 55);
+    --back3: rgb(4, 81, 109);
+    --back4: #0a1a26;
+    --shadow: 0.1em 0.2em 0.2em rgb(0 0 0 / 50);
+    --rand:#EDB579;
+    --font:white;
+    --font-back:rgba(216, 228, 234, 0.5);
+    --back-img:rgba(7, 39, 50, 0.8);
+    --back-img2:rgba(3, 34, 46, 0.5);
+    height: 100%;
+}
+
 :root{
-    /* --back: #FABE00; */
+    height: 100%;
+}
+.light {
     --back: #98E0FA;
     --back1: #91D4ED;
     --back2: rgba(129, 190, 212, 1);
@@ -12,12 +29,10 @@
     --back4: rgba(67, 98, 110, 1);
     --shadow: 0.1em 0.2em 0.2em rgb(0 0 0 / 50);
     --rand:#EDB579;
-
-    
-   
-    height: 100%;
-}
-body {
+    --font:white;
+    --font-back:rgba(67, 98, 110, 0.5);
+    --back-img:rgba(129, 190, 212, 0.8);
+    --back-img2:rgba(106, 155, 173, 0.5);
     /* display: grid; */
     font-family: 'Raleway', sans-serif;
     height: 100%;
@@ -34,20 +49,24 @@ margin-top: 0.2em;
 font-size: xx-large;
 text-shadow: var(--shadow);
 color: var(--rand);
-background:var(--back4)
+background:var(--back3)
 
+}
+.flx{
+    display: flex;
+    align-items: center;
 }
 .svg-inline--fa{
     color: var(--rand);
     text-shadow: var(--shadow);
-    background: rgba(67, 98, 110, 0.5);
+    background: var(--font-back);
     padding: 0.3rem;
     border-radius: 0.3rem;
 }
 .navbar-expand-lg{
     background-color: var(--back);
     padding: 0;
-    height: 12%;
+    height: 11%;
 }
 .carousel-indicators{
     height: 0rem !important;
@@ -75,7 +94,7 @@ background:var(--back4)
 .intro{
     display: flex;
     background-color: var(--back1);
-    height: 25%;
+    height: 26%;
     justify-content: space-evenly;
 }
 .carousel-item{
@@ -100,12 +119,12 @@ background:var(--back4)
     font-weight: bold;
     margin: 25px;
     text-shadow: var(--shadow);
-    color: white !important;
+    color: var(--font) !important;
 }
 .main{
     padding-top: 3%;
     text-align: -webkit-center;
-    background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
+    background: linear-gradient( var(--back-img) 100%, var(--back-img2) 100%), url(../background.jpg);
     /* height: 500px; */
     height: 80%;
 }
@@ -117,7 +136,7 @@ background:var(--back4)
     text-align: justify;
 }
 .name{
-    color: white;
+    color: var(--font);
     text-shadow: var(--shadow);
     font-weight: bold;
     
@@ -125,14 +144,26 @@ background:var(--back4)
 
 .discription{
    font-size: 0.8rem;
-   color:white;
+   color:var(--font);
    text-shadow: var(--shadow);
-    background: rgba(67, 98, 110, 0.5);
+    background: var(--font-back);
     padding: 0.3rem;
     border-radius: 0.3rem;
     text-align-last: start;
-    margin:0.2rem
+    margin:0.2rem;
+    vertical-align: super;
 }
+.discription1{
+    font-size: 0.8rem;
+    color:var(--font);
+    text-shadow: var(--shadow);
+     background: var(--font-back);
+     padding: 0.3rem;
+     border-radius: 0.3rem;
+     text-align-last: center;
+     /* margin:0.2rem */
+     inline-size: max-content;
+ }
 .footer{
     /* min-height: calc(10vh - 40px); */
     display: flex;
@@ -151,36 +182,33 @@ background:var(--back4)
 .main1{
     padding-top: 3%;
     text-align: -webkit-center;
-    background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
+    background: linear-gradient( var(--back-img) 100%, var(--back-img2)100%), url(../background.jpg);
     height: 80%;
+}
+.d-block{
+    width: 55% !important;
 }
 
 .main3{
     padding-top: 3%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
-    background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
+    background: linear-gradient( var(--back-img) 100%,var(--back-img2) 100%), url(../background.jpg);
     height: 80%;
 }
-.main4{
-    padding-top: 3%;
-    text-align: -webkit-center;
-    background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
-    height: 80%;
-}
+
 
 .contact-links{
     font-size: 0.9rem;
     font-weight: bold;
     text-shadow: var(--shadow) ;
 text-decoration-line: blink;
-color: white;
+color: var(--font);
 }
 
-/* .carousel-inner{
-    width: 70%;
-    height: 70%;
-} */
+.carousel-item {
+    width: 80%;
+}
 .d-block{
     width: 35%;
     
