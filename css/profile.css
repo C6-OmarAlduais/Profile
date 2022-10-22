@@ -24,16 +24,17 @@ body {
 
 }
 .sign{
-    border-radius: 100%;
+    /* border-radius/: 100%; */
     font-family: Shadow, sans-serif;
     /* border: 7px solid var(--rand); */
 border-radius: 100px;
-/* font-weight:bolder; */
-padding: 0.1em;
+/* font-weight:bold; */
+padding: 0.2em;
 margin-top: 0.2em;
 font-size: xx-large;
 text-shadow: var(--shadow);
-color: var(--rand)
+color: var(--rand);
+background:var(--back4)
 
 }
 .svg-inline--fa{
@@ -61,14 +62,14 @@ color: var(--rand)
 .books-image:hover{
     cursor: pointer;
     
-   zoom: 120%;
+   zoom: 110%;
    /* position: absolute; */
         top: 5em;
    overflow: hidden;
     width: 20em;
     transition: transform .5s ease-in-out;
-    transform:scale(1.1);
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    transform:scale(1);
+    -webkit-transform:scale(1); /* Safari and Chrome */
 
 } 
 .intro{
@@ -127,9 +128,10 @@ color: var(--rand)
    color:white;
    text-shadow: var(--shadow);
     background: rgba(67, 98, 110, 0.5);
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
     text-align-last: start;
+    margin:0.2rem
 }
 .footer{
     /* min-height: calc(10vh - 40px); */
