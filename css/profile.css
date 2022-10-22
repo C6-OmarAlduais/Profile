@@ -29,8 +29,9 @@ body {
     border: 7px solid var(--rand);
 border-radius: 100px;
 /* font-weight:bolder; */
-padding: 0.2em;
+padding: 0.1em;
 margin-top: 0.2em;
+font-size: xx-large;
 }
 .svg-inline--fa{
     color: var(--rand);
@@ -61,7 +62,7 @@ margin-top: 0.2em;
     text-align-last: center;
 }
 .profile-image{
-    width:25%;
+    width:15%;
     /* height: 30%; */
     border-radius: 360px;
     border: 7px solid var(--rand);
@@ -72,10 +73,10 @@ margin-top: 0.2em;
     margin-bottom:0px !important;
     margin-right:0px !important;
     margin-top:0px !important;
-    margin-left: 8em !important;
+    margin-left: 6em !important;
 }
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin: 25px;
     text-shadow: var(--shadow);
@@ -85,8 +86,8 @@ margin-top: 0.2em;
     padding-top: 5%;
     text-align: -webkit-center;
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
-    height: 500px;
-    height: 100%;
+    /* height: 500px; */
+    height: 80%;
 }
 .name-description{
     width: fit-content;
@@ -98,12 +99,12 @@ margin-top: 0.2em;
 .name{
     color: white;
     text-shadow: var(--shadow);
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 
 .discription{
-   font-size: 1.1rem;
+   font-size: 0.8rem;
    color:white;
    text-shadow: var(--shadow);
     background: rgba(67, 98, 110, 0.5);
@@ -120,7 +121,7 @@ margin-top: 0.2em;
     align-items: center;
 }
 .moto{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-shadow: var(--shadow) ;
     padding-top: 1%;
@@ -128,12 +129,8 @@ margin-top: 0.2em;
 .main1{
     padding-top: 5%;
     text-align: -webkit-center;
-    background: linear-gradient( rgba(129, 190, 212, 0.5) 100%, rgba(106, 155, 173, 0.5)100%), url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
-
-
-    height: 500px;
-    height: 100%;
+    height: 80%;
 }
 /* .main2{
     padding-top: 5%;
@@ -149,28 +146,20 @@ margin-top: 0.2em;
     padding-top: 5%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
-    background: linear-gradient( rgba(129, 190, 212, 0.5) 100%, rgba(106, 155, 173, 0.5)100%), url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
-
-
-    height: 500px;
-    height: 100%;
+    height: 80%;
 }
 .main4{
     padding-top: 5%;
     text-align: -webkit-center;
-    background: linear-gradient( rgba(129, 190, 212, 0.5) 100%, rgba(106, 155, 173, 0.5)100%), url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
-
-
-    height: 500px;
-    height: 100%;
+    height: 80%;
 }
 /* .svg-inline--fa{
     font-size: 2rem;
 } */
 .contact-links{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-shadow: var(--shadow) ;
 text-decoration-line: blink;
