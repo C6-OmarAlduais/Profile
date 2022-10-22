@@ -26,13 +26,14 @@ body {
 .sign{
     border-radius: 100%;
     font-family: Shadow, sans-serif;
-    border: 7px solid var(--rand);
+    /* border: 7px solid var(--rand); */
 border-radius: 100px;
 /* font-weight:bolder; */
 padding: 0.1em;
 margin-top: 0.2em;
-font-size: x-large;
-text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
+font-size: xx-large;
+text-shadow: var(--shadow);
+color: var(--rand)
 
 }
 .svg-inline--fa{
@@ -57,6 +58,19 @@ text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
     width: 30%;
     margin-bottom: 1em;
 } 
+.books-image:hover{
+    cursor: pointer;
+    
+   zoom: 120%;
+   /* position: absolute; */
+        top: 5em;
+   overflow: hidden;
+    width: 20em;
+    transition: transform .5s ease-in-out;
+    transform:scale(1.5);
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+
+} 
 .intro{
     display: flex;
     background-color: var(--back1);
@@ -67,7 +81,7 @@ text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
     text-align-last: center;
 }
 .profile-image{
-    width:15%;
+    width:18%;
     /* height: 30%; */
     border-radius: 360px;
     border: 7px solid var(--rand);
@@ -88,7 +102,7 @@ text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
     color: white !important;
 }
 .main{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
     /* height: 500px; */
@@ -133,37 +147,26 @@ text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
     padding-top: 1%;
 }
 .main1{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
     height: 80%;
 }
-/* .main2{
-    padding-top: 5%;
-    text-align: -webkit-center;
-    background-image: url(../white-abstract-background-design_23-2148825582.png);
-    height: 500px;
-    height: 100%;
-}
-.services-list{
-    
-} */
+
 .main3{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
     height: 80%;
 }
 .main4{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( rgba(129, 190, 212, 0.8) 100%, rgba(106, 155, 173, 0.5)100%), url(../background.jpg);
     height: 80%;
 }
-/* .svg-inline--fa{
-    font-size: 2rem;
-} */
+
 .contact-links{
     font-size: 0.9rem;
     font-weight: bold;
@@ -180,104 +183,3 @@ color: white;
     width: 35%;
     
 }
-/* .d-block:hover{
-    width: 38%;
-} */
-/* 
-* {
-    margin: 0;   
-    padding: 0; */
-  /* }
-html{
-height: 100%;
-width: 100%;
-}
-body{
-    height: 100%;
-width: 100%;
-
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.left-right{
-    display: grid;
-background-color:var(--back);
-height: 100%;
-width: 100%;
-
-align-items: flex-end;
-    justify-items: end;
-}
-.left-right-bottom{
-    display: grid;
-background-color: var(--back);
-height: 100%;
-width: 100%;
-
-align-items: flex-start;
-    justify-items: start;
-}
-
-.right-left{
-    display: grid;
-    height: 100%;
-width: 100%;
-
-    align-items: flex-end;
-    justify-items: start;
-}
-
-.right-left-bottom{
-    display: grid;
-    height: 100%;
-width: 100%;
-
-    align-items: flex-start;
-    justify-items: end;
-}
-
-.img-left-bottom{
-    width: 20%;
-    height: 30%;
-    /* margin: 1px; */
-/* } */
-/* .img-right-top{
-    width: 20%;
-    height: 30%;
-    /* margin: 1px; */
-
-} */
-
-/* @media (max-width: 535px) {
-    .img-left-bottom{
-        height: 10%;
-    }
-    .img-right-top{
-        height: 10%;
-    }
-  }
-  @media (min-width: 535px) and (max-width: 767px) {
-    .img-left-bottom{
-        height: 15%;
-    }
-    .img-right-top{
-        height: 15%;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .img-left-bottom{
-        height: 20%;
-    }
-    .img-right-top{
-        height: 20%;
-    }
-  }
-  @media (min-width: 1200px) {
-    .img-left-bottom{
-        height: 30%;
-    }
-    .img-right-top{
-        height: 30%;
-    }
-  }
-   */
