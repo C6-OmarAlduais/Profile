@@ -31,7 +31,9 @@ border-radius: 100px;
 /* font-weight:bolder; */
 padding: 0.1em;
 margin-top: 0.2em;
-font-size: xx-large;
+font-size: x-large;
+text-shadow: 0.04em 0.04em 0.04em rgba(254 255 255 / 50);
+
 }
 .svg-inline--fa{
     color: var(--rand);
@@ -45,13 +47,16 @@ font-size: xx-large;
     padding: 0;
     height: 12%;
 }
+.carousel-indicators{
+    height: 0rem !important;
+}
 /* .container-fluid{
     justify-content: space-between;
 } */
-/* .nav-costum{
-    display: flex;
-    justify-content: end;
-} */
+.books-image{
+    width: 30%;
+    margin-bottom: 1em;
+} 
 .intro{
     display: flex;
     background-color: var(--back1);
@@ -110,6 +115,7 @@ font-size: xx-large;
     background: rgba(67, 98, 110, 0.5);
     padding: 1rem;
     border-radius: 1rem;
+    text-align-last: start;
 }
 .footer{
     /* min-height: calc(10vh - 40px); */
