@@ -33,17 +33,13 @@ body{
     --font-back:rgba(67, 98, 110, 0.5);
     --back-img:rgba(129, 190, 212, 0.8);
     --back-img2:rgba(106, 155, 173, 0.5);
-    /* display: grid; */
     font-family: 'Raleway', sans-serif;
     height: 100%;
 
 }
 .sign{
-    /* border-radius/: 100%; */
     font-family: Shadow, sans-serif;
-    /* border: 7px solid var(--rand); */
 border-radius: 100px;
-/* font-weight:bold; */
 padding: 0.2em;
 margin-top: 0.2em;
 font-size: xx-large;
@@ -75,25 +71,21 @@ background:var(--back3)
 .carousel-indicators{
     height: 0rem !important;
 }
-/* .container-fluid{
-    justify-content: space-between;
-} */
+
 .books-image{
     width: 30%;
     margin-bottom: 1em;
 } 
 .books-image:hover{
     cursor: pointer;
-    /* width: 80%; */
     
    zoom: 150%;
-   /* position: absolute; */
         top: 5em;
    overflow: hidden;
     width: 20em;
     transition: transform .5s ease-in-out;
     transform:scale(1);
-    -webkit-transform:scale(1); /* Safari and Chrome */
+    -webkit-transform:scale(1); 
 
 } 
 .navbar-toggler{
@@ -110,28 +102,16 @@ background:var(--back3)
 }
 .profile-image{
     width:25%;
-    /* height: 30%; */
     border-radius: 360px;
     border: 7px solid var(--rand);
     margin: 5px;
    
 }
-/* .nav-link{
-    margin-bottom:0px !important;
-    margin-right:0px !important;
-    margin-top:0px !important;
-    margin-left: 6em !important;
-    font-size: 0.9rem;
-    font-weight: bold;
-    margin: 25px;
-    text-shadow: var(--shadow);
-    color: var(--font) !important;
-} */
+
 .main{
     padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( var(--back-img) 100%, var(--back-img2) 100%), url(../background.jpg);
-    /* height: 500px; */
     height: 80%;
 }
 .name-description{
@@ -173,11 +153,10 @@ background:var(--back3)
      padding: 0.3rem;
      border-radius: 0.3rem;
      text-align-last: center;
-     /* margin:0.2rem */
      inline-size: max-content;
  }
 .footer{
-    /* min-height: calc(10vh - 40px); */
+ 
     display: flex;
     background-color: var(--back4);
     height: 8%;
@@ -238,13 +217,13 @@ color: var(--font);
     padding-right: 4%;
     align-items: center;
     padding-left: 1%;
-    background-color: black;
+    background-color: var(--back)
 }
 .nav-link{
     margin-bottom:0px !important;
     margin-right:0px !important;
     margin-top:0px !important;
-    /* margin-left: 6em !important; */
+ 
     font-size: 0.9rem;
     font-weight: bold;
     margin: 25px;
