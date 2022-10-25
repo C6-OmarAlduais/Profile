@@ -102,17 +102,27 @@ background:var(--back3)
 }
 .carousel-item{
     text-align-last: center;
+    text-align: -webkit-center;
 }
 .profile-image{
-    width:25%;
+    width:30%;
     border-radius: 360px;
-    border: 7px solid var(--rand);
-    margin: 5px;
+    border: 1px solid var(--rand);
+    margin-bottom: 1px;
    
+}
+.img-title{
+    color: var(--rand);
+    text-shadow: var(--shadow);
+    background: var(--back4);
+    width: fit-content;
+    align-self: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .main{
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: -webkit-center;
     background: linear-gradient( var(--back-img) 100%, var(--back-img2) 100%), url(../background.jpg);
     height: 100%;
@@ -183,7 +193,7 @@ background:var(--back3)
     padding-top: 1%;
 }
 .main1{
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: -webkit-center;
     background: linear-gradient( var(--back-img) 100%, var(--back-img2)100%), url(../background.jpg);
     height:100%;;
@@ -193,11 +203,11 @@ background:var(--back3)
 }
 
 .main3{
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( var(--back-img) 100%,var(--back-img2) 100%), url(../background.jpg);
-    height:100%;;
+    height:110%;;
 }
 
 
