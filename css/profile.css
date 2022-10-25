@@ -159,6 +159,7 @@ background:var(--back3)
      border-radius: 0.3rem;
      text-align-last: center;
      inline-size: max-content;
+     width: 100%;
  }
 .footer{
  
@@ -252,4 +253,7 @@ html, body{
 }
 .d-block1{
     width: 100%;
+}
+.d-block1:hover{
+    width: 116%;
 }
