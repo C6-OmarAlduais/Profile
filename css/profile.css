@@ -123,7 +123,6 @@ background:var(--back3)
     text-align-last: start;
     margin-left: 10%;
     margin-right: 29%;
-    text-align: justify;
 }
 .name{
     color: var(--font);
@@ -149,6 +148,8 @@ background:var(--back3)
     margin:0.2rem;
     vertical-align: super;
     width: 100%;
+    text-align: justify;
+
 }
 .discription1{
     font-size: 0.8rem;
@@ -160,6 +161,8 @@ background:var(--back3)
      text-align-last: center;
      inline-size: max-content;
      width: 100%;
+    text-align: justify;
+
  }
 .footer{
  
