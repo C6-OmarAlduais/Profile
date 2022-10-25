@@ -115,7 +115,7 @@ background:var(--back3)
     padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( var(--back-img) 100%, var(--back-img2) 100%), url(../background.jpg);
-    height: 80%;
+    height: 100%;
 
 }
 .name-description{
@@ -186,7 +186,7 @@ background:var(--back3)
     padding-top: 3%;
     text-align: -webkit-center;
     background: linear-gradient( var(--back-img) 100%, var(--back-img2)100%), url(../background.jpg);
-    height:76%;;
+    height:100%;;
 }
 .d-block{
     width: 55% !important;
@@ -197,7 +197,7 @@ background:var(--back3)
     text-align: -webkit-center;
     background-image: url(../white-abstract-background-design_23-2148825582.png);
     background: linear-gradient( var(--back-img) 100%,var(--back-img2) 100%), url(../background.jpg);
-    height:76%;;
+    height:100%;;
 }
 
 
